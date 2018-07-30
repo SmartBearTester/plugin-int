@@ -39,7 +39,7 @@
   <con:testStep type="transfer" name="Property Transfer - Move Username and Password" id="20798a7f-6573-4a62-9fed-35de96bf28ef">
     <con:settings/>
     <con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true">
+      <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" disabled="true">
         <con:name>TransferUser</con:name>
         <con:sourceType>Username</con:sourceType>
         <con:sourceStep>Properties - Username and Password</con:sourceStep>
