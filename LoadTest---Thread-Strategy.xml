@@ -93,12 +93,109 @@
       <con1:connection outputTerminalId="4406db7a-362f-4d81-85c5-6f07b070f025/runningTerminal" inputTerminalId="4eccf1f8-d3f0-4d34-b5c0-9f32e46574d8/Sample Count"/>
     </con1:scene>
     <con1:statistics>
-      <con1:page title="DefaultLoadUIStatisticPage"/>
+      <con1:page title="DefaultLoadUIStatisticPage">
+        <con1:chartGroup type="com.eviware.loadui.api.statistics.model.chart.line.LineChartView" title="" groupType="Monitors">
+          <con1:attributes>
+            <con1:property key="GroupId">18f67ec8-84f0-44a3-a9e0-db66cfb861b8</con1:property>
+          </con1:attributes>
+        </con1:chartGroup>
+      </con1:page>
     </con1:statistics>
   </con1:loadui-project>
   <con:loadUITestScenario projectId="ba7720fc-5dd1-41d0-b003-081e9b9e51f3" scenarioId="08c58583-84b7-4921-99b6-50d8e0a85b49" name="New Scenario" id="d609a57a-661d-47d4-af2e-95dd9f39cd2e">
     <con:settings/>
   </con:loadUITestScenario>
+  <con:loadUIPanelData id="f127d001-65c0-43b2-9c8a-e4248ab1dee4">
+    <con:panel>Log</con:panel>
+    <con:data>
+      <con:paramName>column_width@Timestamp</con:paramName>
+      <con:paramValue>84</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@Timestamp</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@ID</con:paramName>
+      <con:paramValue>74</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@ID</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@Test step status</con:paramName>
+      <con:paramValue>120</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@Test step status</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@TriggerTimestamp</con:paramName>
+      <con:paramValue>84</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@TriggerTimestamp</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@TimeTaken</con:paramName>
+      <con:paramValue>115</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@TimeTaken</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@_wait_time_</con:paramName>
+      <con:paramValue>106</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@_wait_time_</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@Bytes</con:paramName>
+      <con:paramValue>52</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@Bytes</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@HTTP Status</con:paramName>
+      <con:paramValue>90</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@HTTP Status</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@CurrentlyRunning</con:paramName>
+      <con:paramValue>75</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@CurrentlyRunning</con:paramName>
+      <con:paramValue>true</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@Request</con:paramName>
+      <con:paramValue>67</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@Request</con:paramName>
+      <con:paramValue>false</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_width@Response</con:paramName>
+      <con:paramValue>77</con:paramValue>
+    </con:data>
+    <con:data>
+      <con:paramName>column_visible@Response</con:paramName>
+      <con:paramValue>false</con:paramValue>
+    </con:data>
+  </con:loadUIPanelData>
   <con:setupScript xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   <con:teardownScript xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
   <con:reportParameters/>

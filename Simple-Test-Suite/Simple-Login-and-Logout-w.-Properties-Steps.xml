@@ -43,8 +43,8 @@
         <con:name>TransferUser</con:name>
         <con:sourceType>Username</con:sourceType>
         <con:sourceStep>Properties - Username and Password</con:sourceStep>
-        <con:targetType>Request</con:targetType>
-        <con:targetStep>Test Request - login</con:targetStep>
+        <con:targetType xsi:nil="true"/>
+        <con:targetStep xsi:nil="true"/>
         <con:targetPath>declare namespace sam='http://www.soapui.org/sample/';
                             //sam:login/username</con:targetPath>
         <con:upgraded>true</con:upgraded>
@@ -53,51 +53,12 @@
         <con:name>TransferPass</con:name>
         <con:sourceType>Password</con:sourceType>
         <con:sourceStep>Properties - Username and Password</con:sourceStep>
-        <con:targetType>Request</con:targetType>
-        <con:targetStep>Test Request - login</con:targetStep>
+        <con:targetType xsi:nil="true"/>
+        <con:targetStep xsi:nil="true"/>
         <con:targetPath>declare namespace sam='http://www.soapui.org/sample/';
                             //sam:login/password</con:targetPath>
         <con:upgraded>true</con:upgraded>
       </con:transfers>
-    </con:config>
-  </con:testStep>
-  <con:testStep type="request" name="Test Request - login" id="7fca3315-9500-4384-be8e-b72f7ac6c6f4">
-    <con:settings/>
-    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <con:interface>ServiceSoapBinding</con:interface>
-      <con:operation>login</con:operation>
-      <con:request name="Test Request - login" outgoingWss="" incomingWss="" id="3100839c-d984-4991-afe1-52b1dc4fcaec" defaultOutgoingWss="" defaultIncomingWss="">
-        <con:settings>
-          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
-        </con:settings>
-        <con:encoding>UTF-8</con:encoding>
-        <con:endpoint>http://127.0.0.1:8082/mockServiceSoapBinding</con:endpoint>
-        <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sam="http://www.soapui.org/sample/">
- <soapenv:Header/>
- <soapenv:Body>
- <sam:login>
- <username>Loginn${=String.valueOf(Math.random()).substring( 0, 5 )}</username>
- <password>Loginn123</password>
- </sam:login>
- </soapenv:Body>
-</soapenv:Envelope>]]></con:request>
-        <con:assertion type="SOAP Response" id="fd5aa992-c543-4064-95c6-c7fef63152ab"/>
-        <con:assertion type="Schema Compliance" id="5c73ee14-eb29-451c-9a1f-bb32e96f0709">
-          <con:configuration/>
-        </con:assertion>
-        <con:assertion type="SOAP Fault Assertion" id="659cabe8-8445-426a-8339-adfcbc71a8cf"/>
-        <con:credentials>
-          <con:username xsi:nil="true"/>
-          <con:password xsi:nil="true"/>
-          <con:domain xsi:nil="true"/>
-          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
-          <con:authType>No Authorization</con:authType>
-        </con:credentials>
-        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
-        <con:jmsPropertyConfig/>
-        <con:wsaConfig mustUnderstand="NONE" version="200508"/>
-        <con:wsrmConfig version="1.2"/>
-      </con:request>
     </con:config>
   </con:testStep>
   <con:testStep type="transfer" name="Property Transfer - Move sessionID" id="349f39a5-607e-4bd8-84fb-45b08005e778">
@@ -105,8 +66,8 @@
     <con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" transferToAll="false" ignoreEmpty="false">
         <con:name>MoveSessionId</con:name>
-        <con:sourceType>Response</con:sourceType>
-        <con:sourceStep>Test Request - login</con:sourceStep>
+        <con:sourceType xsi:nil="true"/>
+        <con:sourceStep xsi:nil="true"/>
         <con:sourcePath>declare namespace sam='http://www.soapui.org/sample/';
                             //sam:loginResponse/sessionid</con:sourcePath>
         <con:targetType>Request</con:targetType>

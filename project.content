@@ -13,7 +13,6 @@ Expanded-Test-Suite\Search-and-Buy-TestCase.xml
 Expanded-Test-Suite\XML-DataSource.xml
 Expanded-Test-Suite\Groovy-DataSource.xml
 Expanded-Test-Suite\More-Than-Less-Than-TestCase.xml
-LoadTest---Simple-Strategy.xml
 LoadTest---Thread-Strategy.xml
 LoadTest---Variance-Strategy.xml
 LoadTest-1.xml
