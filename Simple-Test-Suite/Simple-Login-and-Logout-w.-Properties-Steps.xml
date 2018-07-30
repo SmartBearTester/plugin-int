@@ -27,7 +27,7 @@
       <con:properties>
         <con:property>
           <con:name>Username</con:name>
-          <con:value>Loginn${=String.valueOf(Math.random()).substring( 0, 5 )}</con:value>
+          <con:value>test log</con:value>
         </con:property>
         <con:property>
           <con:name>Password</con:name>
