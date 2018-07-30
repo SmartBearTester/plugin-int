@@ -28,6 +28,7 @@
         <con1:property propagates="true" key="SceneItem.followProject" type="java.lang.Boolean">true</con1:property>
         <con1:property propagates="true" key="SceneItem.scenarioRatePercentage" type="java.lang.Long">100</con1:property>
         <con1:property propagates="true" key="SceneItem.scenarioRateSpecific" type="java.lang.Long">10</con1:property>
+        <con1:property propagates="true" key="ModelItem.samplerOutputLevel" type="com.eviware.loadui.api.component.SoapUISamplerOutputLevel">TestCaseAndAllTestSteps</con1:property>
       </con1:properties>
       <con1:attributes>
         <con1:property key="limits">Time=30;</con1:property>
@@ -52,7 +53,7 @@
         <con1:properties>
           <con1:property propagates="true" key="ModelItem.description" type="java.lang.String"/>
           <con1:property propagates="true" key="stateProperty" type="java.lang.Boolean">true</con1:property>
-          <con1:property propagates="true" key="limitVU" type="java.lang.Long">9223372036854775807</con1:property>
+          <con1:property propagates="true" key="limitVU" type="java.lang.Long">250</con1:property>
           <con1:property propagates="true" key="load" type="java.lang.Long">1</con1:property>
           <con1:property propagates="true" key="interval" type="java.lang.Long">1000</con1:property>
         </con1:properties>
