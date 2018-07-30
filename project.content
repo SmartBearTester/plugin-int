@@ -15,7 +15,6 @@ Expanded-Test-Suite\Groovy-DataSource.xml
 Expanded-Test-Suite\More-Than-Less-Than-TestCase.xml
 LoadTest---Variance-Strategy.xml
 LoadTest-1.xml
-LoadTest-with-Multiple-Tests-%28will-fail%29.xml
 LoadTest.xml
 ServiceSoapBinding-MockService\buy.xml
 ServiceSoapBinding-MockService\login.xml
