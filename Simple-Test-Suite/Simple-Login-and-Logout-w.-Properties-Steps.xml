@@ -44,7 +44,7 @@
         <con:sourceType>Username</con:sourceType>
         <con:sourceStep>Properties - Username and Password</con:sourceStep>
         <con:targetType xsi:nil="true"/>
-        <con:targetStep xsi:nil="true"/>
+        <con:targetStep>Test Request - logout</con:targetStep>
         <con:targetPath>declare namespace sam='http://www.soapui.org/sample/';
                             //sam:login/username</con:targetPath>
         <con:upgraded>true</con:upgraded>
@@ -54,7 +54,7 @@
         <con:sourceType>Password</con:sourceType>
         <con:sourceStep>Properties - Username and Password</con:sourceStep>
         <con:targetType xsi:nil="true"/>
-        <con:targetStep xsi:nil="true"/>
+        <con:targetStep>Test Request - logout</con:targetStep>
         <con:targetPath>declare namespace sam='http://www.soapui.org/sample/';
                             //sam:login/password</con:targetPath>
         <con:upgraded>true</con:upgraded>
