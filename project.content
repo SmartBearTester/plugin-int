@@ -2,7 +2,6 @@ ServiceSoapBinding\buy.xml
 ServiceSoapBinding\login.xml
 ServiceSoapBinding\logout.xml
 ServiceSoapBinding\search.xml
-Simple-Test-Suite\Simple-Login-and-Logout-w.-Properties-Steps.xml
 Simple-Test-Suite\Simple-Login-and-Logout-Property-Expansion.xml
 Simple-Test-Suite\Simple-Login-and-Logout-and-Login-Again.xml
 Simple-Test-Suite\Simple-Search-TestCase.xml
